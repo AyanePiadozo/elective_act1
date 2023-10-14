@@ -1,37 +1,31 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Registration</title>
+
 </head>
 <body>
   <div class="container">
     <h2>User Registration</h2>
-    <div class="form-group">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" placeholder="Enter your username">
-    </div>
-    <div class="form-group">
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password">
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email">
-    </div>
-    <div class="form-group">
-      <button onclick="registerUser()">Register</button>
-    </div>
+    <form id="registrationForm" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Register</button>
+      </div>
+    </form>
   </div>
 
-  <script>
-    function registerUser() {
 
-      alert('User registered!');
-    }
-  </script>
 </body>
 </html>

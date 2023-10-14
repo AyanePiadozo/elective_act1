@@ -1,11 +1,4 @@
-
-* {
-  box-sizing: border-box;
-  }
-
-  *:focus {
-      outline: none;
-  }
+/* Add CSS styles for the registration page */
 body {
   font-family: Arial, sans-serif;
 }
@@ -14,7 +7,7 @@ body {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #113946;
+  border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -41,7 +34,7 @@ body {
 
 .form-group button {
   padding: 10px 20px;
-  background-color:#113946;
+  background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 5px;
