@@ -6,20 +6,10 @@
       outline: none;
   }
 
-  #Logo{
-      display:block;
-      position: relative;
-      border-radius:55%;
-      margin-left: auto;
-      margin-right: auto;
-      width: 175px;
-      height: 175px;
-      transform: translate(-0%, 10%);
-  }
   body {
-  font-family: Baguette, Century;
-  background-color: lightgray;
-  padding: 50px;
+  font-family: Arial;
+  background-color:#EAD7BB;
+  padding: 5%;
   }
   .login {
   margin: 20px auto;
@@ -27,13 +17,13 @@
   }
   .login-screen {
   background-color: #FFF;
-  padding: 20px;
-  border-radius: 5px
+  padding: 15px;
+  border-radius: 10px
   }
 
   .app-title {
   text-align: center;
-  color: #777;
+  color: #000000;
   }
 
   .login-form {
@@ -44,35 +34,38 @@
   }
   .border{
       height: 3px;
-      background: rgba(0, 0, 0, .3);
+      background:#113946;
       margin: 20px 0;
-      box-shadow: 0px 0px 4px 2px rgba(204,204,204,0.5);
+      box-shadow: 0px 0px 4px 2px #FFF2D8;
   }
 
   .Headings{
-      font-family: Baguette, century;
-      font-size: 2.7rem;
+      font-family: Arial;
+      font-size: 2rem;
+      font-weight: Bold;
       text-align: center;
-      color: rgba(60, 60, 60, 0.9);;
-      margin: 40px 0px;
+      color: rgba(0, 0, 0, 0.9);;
+      margin: 50px 0px;
       transform: translate(-0%, -70%);
   }
 
   .TextStyle1 {
-      font-family: Baguette, century;
+      font-family:Serif;
       font-weight: Bold;
       margin-left: 5px;
-      font-size: 20px;
+      font-size: 15px;
       color: rgba(60, 60, 60, 0.9);
+      text-align: left;
   }
 
   .TextStyle2 {
-      font-family: Cambria;
+      font-family: Serif;
       font-style: italic;
       font-weight: bold;
       margin-left: 5px;
       font-size: 15px;
       color: rgba(60, 60, 60, 0.9);
+      text-align: center;
   }
 
   input {
@@ -82,20 +75,26 @@
   border-radius: 3px;
   font-size: 16px;
   font-weight: 200;
-  padding: 10px 0;
-  width: 250px;
+  width: 200px;
   transition: border .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .center-textbox {
+    padding: 10px;
   }
 
   input:focus {
-  border: 2px solid #3498DB;
+  border: 2px solid #BCA37F;
   box-shadow: none;
   }
 
   .btn {
     font-family: Lucida Sans;
     border: 2px solid transparent;
-    background: rgba(60, 60, 60, 0.9);
+    background: #113946;
     color: #ffffff;
     font-size: 18px;
     line-height: 25px;
