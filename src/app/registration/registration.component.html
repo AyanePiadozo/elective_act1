@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>User Registration</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
 </head>
 <body>
-  <div class="container">
-    <h2>User Registration</h2>
-    <form id="registrationForm" onsubmit="handleSubmit(event)">
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+  <div class="registration">
+  <div class="registration-screen">
+    <div class="app-title">
+      <h1 class="Headings">Register</h1>
+    </div>
+
+    <div class="registration-form">
+      <div class="container">
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="TextStyle1" placeholder="Enter Email" name="email" id="email" required>
+      <div class="control-group">
+        <label for="psw"><b>Password</b></label>
+        <input type="TextStyle1" placeholder="Enter Password" name="psw" id="psw" required>
+      <div class="control-group">
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="TextStyle1" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    </div>
+         <div>
+      <button type="submit" class="registerbtn" input type="Submit" onclick="alert('You are now Registered!')"  value="Submit">Register</button>
+    </div>
+
+       <div class="container signin">
+      <p class="TextStyle2">Already have an account? <a href="http://localhost:4200/login">Login</a>.</p>
+    </div>
+
+    <input type="Reset" value="Clear Form">
+       </div>
       </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-      </div>
-      <div class="form-group">
-        <button type="submit">Register</button>
-      </div>
-    </form>
+     </div>
+     </div>
   </div>
-
-
-</body>
-</html>
+  </body>
+   </html>

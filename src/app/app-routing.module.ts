@@ -12,7 +12,7 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then(mod => mod.LoginModule)
   },
   {
-    path: "registarion",
+    path: "registration",
     loadChildren: () => import('./registration/registration.module').then(mod => mod.RegistrationModule)
   }
 ];
