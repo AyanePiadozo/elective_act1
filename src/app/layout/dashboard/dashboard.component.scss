@@ -16,10 +16,12 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  opacity: 80%;
 }
 
 table, th, td {
   border: 5px solid #BCA37F;;
+
 }
 
 th, td {
@@ -57,7 +59,7 @@ tr:nth-child(odd) {
   background-color: #DADDB1;
   border-radius: 10px;
   padding: 20px;
-  width: 20%;
+  width: 25%;
   height: 200px;
   margin: 10px;
   box-shadow: 0 2px 4px #113946;
@@ -75,6 +77,7 @@ tr:nth-child(odd) {
  text-align: center;
   display: block;
   box-shadow: 0 2px 4px #113946;
+  transform: translate( 7%, -40%);
 
 }
 
@@ -82,13 +85,13 @@ tr:nth-child(odd) {
   box-shadow: 5px 15px 25px #113946
 }
 .cards p{
-  transform: translate( 30%, -170%);
+  transform: translate( 5%, -170%);
 
 }
 
 .cards h2 {
   margin-top: 0;
-  transform: translate( 15%, -60%);
+  transform: translate( 0%, -60%);
 
 
 }
@@ -97,7 +100,7 @@ tr:nth-child(odd) {
   background-color: #DADDB1;
   border-radius: 10px;
   padding: 20px;
-  width: 20%;
+  width: 25%;
   height: 200px;
   margin: 10px;
   box-shadow: 0 2px 4px #113946;
@@ -107,13 +110,13 @@ tr:nth-child(odd) {
   box-shadow: 5px 15px 25px #113946;
 }
 .two p{
-  transform: translate( 30%, -170%);
+  transform: translate( 5%, -170%);
 
 }
 
 .two h2 {
   margin-top: 0;
-  transform: translate( 15%, -60%);
+  transform: translate( 0%, -60%);
 
 }
 
@@ -121,7 +124,7 @@ tr:nth-child(odd) {
   background-color: #DADDB1;
   border-radius: 10px;
   padding: 20px;
-  width: 20%;
+  width: 25%;
   height: 200px;
   margin: 10px;
   box-shadow: 0 2px 4px #113946;
@@ -131,20 +134,20 @@ tr:nth-child(odd) {
   box-shadow: 5px 15px 25px #113946;
 }
 .three p{
-  transform: translate( 30%, -170%);
+  transform: translate( 5%, -170%);
 
 }
 
 .three h2 {
   margin-top: 0;
-  transform: translate( 15%, -60%);
+  transform: translate( 0%, -60%);
 
 }
 .four{
   background-color: #DADDB1;
   border-radius: 10px;
   padding: 20px;
-  width: 20%;
+  width: 25%;
   height: 200px;
   margin: 10px;
   box-shadow: 0 2px 4px #113946;
@@ -154,13 +157,13 @@ tr:nth-child(odd) {
   box-shadow: 5px 15px 25px #113946;
 }
 .four p{
-  transform: translate( 30%, -170%);
+  transform: translate( 5%, -170%);
 
 }
 
 .four h2 {
   margin-top: 0;
-  transform: translate( 15%, -60%);
+  transform: translate( 0%, -60%);
 
 }
 .footer {
@@ -170,4 +173,9 @@ tr:nth-child(odd) {
   padding: 1px;
   width: 100%;
   bottom: 0;
+}
+.dash.th{
+  font-size: 22px;
+  background-color:#ffffff;
+  color:#113946;
 }
