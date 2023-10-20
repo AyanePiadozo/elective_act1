@@ -1,16 +1,12 @@
-body {
-  font-family: "Lato", sans-serif;
-   display: flex;
-}
+
 
 .sidenav {
   height: 100%;
+  min-height: 100vh;
   width: 200px;
-  position:fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  background-color: #EAD7BB;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -18,12 +14,14 @@ body {
 .sidenav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
-  font-size: 15px;
-  color: #818181;
+  font-size: 17px;
+  color: #113946;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #ffffff;
 }
+
+
 

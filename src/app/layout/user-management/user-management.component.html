@@ -1,69 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>User Registration</title>
-  <style>
-    /* Add CSS styles for the form */
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .form-group {
-      margin-bottom: 15px;
-    }
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-    }
-    .form-group input {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    .form-group button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  </style>
-</head>
 <body>
-  <div class="container">
-    <h2>User Registration</h2>
-    <div class="form-group">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username">
-    </div>
-    <div class="form-group">
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password">
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email">
-    </div>
-    <div class="form-group">
-      <button onclick="registerUser()">Register</button>
-    </div>
+<div class="btn">
+    <button type="submit" class="btn btn-primary" id="newaccount"><b>Create New Account</b></button>
   </div>
 
-  <script>
-    function registerUser() {
+  <div class="container col-md-4" id="panel2">
 
-      alert('User registered!');
-    }
-  </script>
+   <h2>Create User Account</h2>
+  </div>
+
+  <hr>
+
+  <div class="container col-md-4" id="panel2">
+<form role="form">
+
+  <div class="form-group col-md-12">
+    <label>
+      <input type="checkbox" checked> Active?
+    </label>
+  </div>
+
+  <div class="form-group col-md-6">
+    <label for="username">User Name</label>
+    <input type="text" class="form-control" name="username" placeholder="username" required>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="password">Password</label>
+    <input type="text" class="form-control" name="password" placeholder="password" required>
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="fn">First Name</label>
+    <input type="text" class="form-control" name="fn" placeholder="Firstname" required>
+  </div>
+  <div class="form-group col-md-8">
+    <label for="ln">Last Name</label>
+    <input type="text" class="form-control" name="ln" placeholder="Lastname" required>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+    <label class="form-check-label" for="gridRadios1">
+      Male
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+    <label class="form-check-label" for="gridRadios2">
+      Female
+    </label>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="email">Email address</label>
+    <input type="text" class="form-control" name="email" placeholder="@gmail.com">
+  </div>
+  <div class="form-group col-md-6">
+    <label for="phone">Phone Number <span class="small">(optional)</span></label>
+    <input type="tel" class="form-control" name="phone" placeholder="09*********">
+  </div>
+
+  <div class="form-group col-md-8">
+    <label for="access">Authorized to Access Order Status</label>
+    <input type="text" class="form-control text-uppercase" name="cus_no" placeholder="Name, *DC, *ALL">
+  </div>
+
+  <hr>
+
+  <div class="col-md-12 text-right">
+    <button type="submit" class="btn btn-primary">Create Account</button>
+    <button type="submit" class="btn btn-default">Cancel</button>
+    <button type="submit" class="btn btn-danger pull-right">Delete Account</button>
+  </div>
+
+  <div class="footer">
+    <p>&copy; COCO ESSENTAILS </p>
+</div>
+
+</form>
+
+</div>
+
 </body>
-</html>
-
